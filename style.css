@@ -1,0 +1,69 @@
+/* No CSS *//*# sourceMappingURL=style.css.map */
+html,body{
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url("images/img.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    
+}
+
+.box{
+    text-align: center;
+}
+
+.hours, .minutes, .seconds, .amorpm{
+    width: 10em;
+    height: 10em;
+    background-color: #ebe8e8;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: inset 3px 3px 9px #b9b5b5, inset -3px -3px 9px #ffffff;
+}
+
+#hours, #minutes, #seconds, #amorpm{
+    font-size: 5em;
+    font-weight: 600;
+    color: #76771d;
+}
+
+.box > h1{
+    font-size: 1em;
+    color: #cfd155;
+}
+
+@media (max-width: 413px){
+    body{
+      
+       background-image: none;
+       background-color: #EBE8E8;
+    }
+    
+}
